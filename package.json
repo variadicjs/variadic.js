@@ -1,0 +1,15 @@
+{
+  "name": "cidairav",
+  "version": "0.0.3",
+  "description": "A library of useful variadic ES6 functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "variadic",
+    "ES6"
+  ],
+  "author": "",
+  "license": "MIT"
+}
