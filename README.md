@@ -1,6 +1,6 @@
 # Cidairav
 
-One Paragraph of project description goes here
+A ES6 library of useful variadic functions.
 
 ## Getting Started
 

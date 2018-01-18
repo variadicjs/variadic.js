@@ -1,6 +1,6 @@
 {
   "name": "cidairav",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
   "scripts": {
