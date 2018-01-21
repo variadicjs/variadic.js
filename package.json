@@ -1,10 +1,10 @@
 {
   "name": "cidairav",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jhowardjr/cidairav/issues"
   },
-  "homepage": "https://github.com/jhowardjr/cidairav"
+  "homepage": "https://github.com/jhowardjr/cidairav",
+  "devDependencies": {
+    "jasmine": "^2.9.0"
+  }
 }
