@@ -1,7 +1,7 @@
 // REGISTER ALL MODULES
 module.exports = Object.assign({},
-    require('./isEmpty.js'),
-    require('./isEqual.js'),
-    require('./isEven.js'),
-    require('./isOdd.js')
+    require('./lib/isEmpty.js'),
+    require('./lib/isEqual.js'),
+    require('./lib/isEven.js'),
+    require('./lib/isOdd.js')
 );
