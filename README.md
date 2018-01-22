@@ -1,4 +1,4 @@
-# Cidairav
+# Variadic.js
 
 A ES6 library of useful variadic functions.
 
