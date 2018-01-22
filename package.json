@@ -1,5 +1,5 @@
 {
-  "name": "cidairav",
+  "name": "variadic.js",
   "version": "0.0.7",
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhowardjr/cidairav.git"
+    "url": "git://github.com/jhowardjr/variadic.js.git"
   },
   "keywords": [
     "variadic",
@@ -17,9 +17,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jhowardjr/cidairav/issues"
+    "url": "https://github.com/jhowardjr/variadic.js/issues"
   },
-  "homepage": "https://github.com/jhowardjr/cidairav",
+  "homepage": "https://github.com/jhowardjr/variadic.js",
   "devDependencies": {
     "jasmine": "^2.9.0"
   }
