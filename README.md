@@ -1,56 +1,49 @@
-# Cidairav
+# Variadic.js
 
 A ES6 library of useful variadic functions.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* Windows, Linux or Mac OS X
+* [NodeJS](https://nodejs.org)
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+npm install variadic.js --save
 ```
 
-And repeat
+Using:
 
 ```
-until finished
+const variadic = require('variadic.js');
+
+variadic.isOdd(1, 3, 5, 9); // true
+
+variadic.isOdd(1, 3, 5, 9, 8); // false
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+or
+
+```
+const variadic = require('variadic.js/isEmpty');
+
+variadic.isEmpty([], {}, 0); // true
+
+variadic.isEmpty([0, 2, 3], {}, 0); // false
+
+variadic.isEven(2, 4, 6); // error
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+npm test
 ```
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+**TODO**
 
 ## Deployment
 
@@ -58,27 +51,25 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [NodeJS](https://nodejs.org)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/jhowardjr/variadic.js/releases). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+Grow with Google Scholars c/o 2018
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/jhowardjr/variadic.js/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
 ## Acknowledgments
 
