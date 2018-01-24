@@ -1,4 +1,12 @@
+sudo: false
 language: node_js
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm i -g npm@^3.0.0
 
 notifications:
   email:
@@ -10,3 +18,7 @@ install:
 
 script:
   - npm test
+
+branches:
+  only:
+    - master
