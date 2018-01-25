@@ -2,6 +2,12 @@
   "extends": ["airbnb-standard"],
   "rules": {
     "strict": 0,
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ]
   },
   "globals": {
     "describe": true,
