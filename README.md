@@ -1,5 +1,8 @@
 # Variadic.js
 
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+
 A ES6 library of useful variadic functions.
 
 ### Prerequisites
@@ -69,7 +72,7 @@ See also the list of [contributors](https://github.com/jhowardjr/variadic.js/gra
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
@@ -77,3 +80,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 * Inspiration
 * etc
 
+[npm-image]: https://img.shields.io/npm/v/variadic.js.svg?style=for-the-badge
+[npm-url]: https://npmjs.org/package/variadic.js
+[travis-image]: https://img.shields.io/travis/jhowardjr/variadic.js/master.svg?style=for-the-badge
+[travis-url]: https://travis-ci.org/jhowardjr/variadic.js
