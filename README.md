@@ -45,8 +45,11 @@ npm test
 ```
 
 ### And coding style tests
+We use eslint that extends the airbnb-standard. You can read more here: [airbnb/js](https://github.com/airbnb/javascript) 
 
-**TODO**
+```
+npm run lint
+```
 
 ## Deployment
 
