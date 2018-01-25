@@ -1,3 +1,5 @@
+'use strict';
+
 // REGISTER ALL MODULES
 module.exports = Object.assign(
   {},
