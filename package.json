@@ -4,7 +4,8 @@
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
