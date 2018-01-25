@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/jhowardjr/variadic.js",
   "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-standard": "^1.6.6",
     "jasmine": "^2.9.0"
   },
   "dependencies": {}
