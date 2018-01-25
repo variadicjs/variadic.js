@@ -1,6 +1,6 @@
 {
   "name": "variadic.js",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
   "scripts": {
