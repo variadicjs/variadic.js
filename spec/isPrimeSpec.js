@@ -1,6 +1,6 @@
-describe('IsPrime', () => {
-  const { isPrime } = require('../lib/isPrime');
+const { isPrime } = require('../lib/isPrime');
 
+describe('IsPrime', () => {
   it('should return true when all parameters evaluate to prime numbers', () => {
     const result = isPrime(2, 3, 10 / 2, +'7');
     expect(result).toBe(true);
@@ -30,6 +30,6 @@ describe('IsPrime', () => {
   });
 
   it('should throw an error when at least one parameter evaluates to a number larger than Number.MAX_SAFE_INTEGER', () => {
-    expect(() => isPrime(9949370777987917 )).toThrow();
+    expect(() => isPrime(9949370777987917)).toThrow();
   });
 });
