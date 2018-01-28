@@ -28,6 +28,11 @@ describe('IsEmpty', () => {
     expect(result).toBe(true);
   });
 
+  it('should return true when you pass an empty array', () => {
+    const result = isEmpty([]);
+    expect(result).toBe(true);
+  });
+
   it('should return false when pass a non empty object', () => {
     const result = isEmpty({ test: 1 });
     expect(result).toBe(false);

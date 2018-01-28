@@ -4,8 +4,9 @@
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
-    "lint": "eslint index.js lib/** spec/**"
+    "test": "nyc jasmine",
+    "lint": "eslint index.js lib/** spec/**",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,11 @@
   },
   "homepage": "https://github.com/jhowardjr/variadic.js",
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-standard": "^1.6.6",
-    "jasmine": "^2.9.0"
+    "jasmine": "^2.9.0",
+    "nyc": "^11.4.1"
   },
   "dependencies": {}
 }

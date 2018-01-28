@@ -21,6 +21,11 @@ describe('IsPrime', () => {
     expect(result).toBe(false);
   });
 
+  it('should return false when the least factor of a number is not prime', () => {
+    const result = isPrime(961);
+    expect(result).toBe(false);
+  });
+
   it('should throw an error when no parameters are provided', () => {
     expect(isPrime).toThrow();
   });
