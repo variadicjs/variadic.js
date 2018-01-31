@@ -3,7 +3,7 @@ const { sampleStandardDeviation } = require('../lib/sampleStandardDeviation');
 describe('sampleStandardDeviation', () => {
   it('should return the Sample Standard Deviation of all parameters, given that all parameters evaluate to numbers', () => {
     const result = sampleStandardDeviation(727.7, 1086.5, 1091.0, 1361.3, 1490.5, 1956.1);
-    expect(result).toBe(420.9624896195226);
+    expect(result).toBe(420.962489619523);
   });
 
   it('should throw an error when only 1 parameter is provided', () => {
