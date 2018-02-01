@@ -11,5 +11,6 @@ module.exports = Object.assign(
   require('./lib/isNegativeNumber.js'),
   require('./lib/sum.js'),
   require('./lib/average.js'),
-  require('./lib/floatPrecise.js')
+  require('./lib/floatPrecise.js'),
+  require('./lib/isAscending.js')
 );
