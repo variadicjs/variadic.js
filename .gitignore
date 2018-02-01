@@ -64,3 +64,5 @@ typings/
 .coveralls.yml
 
 .DS_Store
+untitled.sublime-project
+untitled.sublime-workspace
