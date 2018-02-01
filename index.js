@@ -12,5 +12,13 @@ module.exports = Object.assign(
   require('./lib/sum.js'),
   require('./lib/average.js'),
   require('./lib/floatPrecise.js'),
-  require('./lib/isAscending.js')
+  require('./lib/isAscending.js'),
+  require('./lib/isDescending.js'),
+  require('./lib/isPrime.js'),
+  require('./lib/median.js'),
+  require('./lib/mode.js'),
+  require('./lib/populationStandardDeviation.js'),
+  require('./lib/populationVariance.js'),
+  require('./lib/sampleStandardDeviation.js'),
+  require('./lib/sampleVariance.js')
 );
