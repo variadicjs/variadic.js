@@ -2,6 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
 
 A ES6 library of useful variadic functions.
 
@@ -65,13 +66,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/jhowardjr/variadic.js/releases). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/variadicjs/variadic.js/releases). 
 
 ## Authors
 
 Grow with Google Scholars c/o 2018
 
-See also the list of [contributors](https://github.com/jhowardjr/variadic.js/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/variadicjs/variadic.js/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -85,5 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [npm-image]: https://img.shields.io/npm/v/variadic.js.svg?style=for-the-badge
 [npm-url]: https://npmjs.org/package/variadic.js
-[travis-image]: https://img.shields.io/travis/jhowardjr/variadic.js/master.svg?style=for-the-badge
-[travis-url]: https://travis-ci.org/jhowardjr/variadic.js
+[travis-image]: https://img.shields.io/travis/variadicjs/variadic.js/master.svg?style=for-the-badge
+[travis-url]: https://travis-ci.org/variadicjs/variadic.js
+[coveralls-image]: https://img.shields.io/coveralls/variadicjs/variadic.js.svg?style=for-the-badge
+[coveralls-url]: https://coveralls.io/r/variadicjs/variadic.js?branch=develop

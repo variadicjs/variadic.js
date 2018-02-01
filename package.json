@@ -1,15 +1,17 @@
 {
   "name": "variadic.js",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "A ES6 library of useful variadic functions.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
-    "lint": "eslint index.js lib/** spec/**"
+    "test": "nyc jasmine",
+    "lint": "eslint index.js lib/** spec/**",
+    "fix": "eslint index.js lib/** spec/** --fix",
+    "coveralls": "nyc jasmine && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhowardjr/variadic.js.git"
+    "url": "git://github.com/variadicjs/variadic.js.git"
   },
   "keywords": [
     "variadic",
@@ -18,13 +20,15 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jhowardjr/variadic.js/issues"
+    "url": "https://github.com/variadicjs/variadic.js/issues"
   },
-  "homepage": "https://github.com/jhowardjr/variadic.js",
+  "homepage": "https://github.com/variadicjs/variadic.js",
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-standard": "^1.6.6",
-    "jasmine": "^2.9.0"
+    "jasmine": "^2.9.0",
+    "nyc": "^11.4.1"
   },
   "dependencies": {}
 }
