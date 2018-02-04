@@ -3,6 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![Gitter chat][gitter-image]][gitter-url]
 
 A ES6 library of useful variadic functions.
 
@@ -90,3 +91,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [travis-url]: https://travis-ci.org/variadicjs/variadic.js
 [coveralls-image]: https://img.shields.io/coveralls/variadicjs/variadic.js.svg?style=for-the-badge
 [coveralls-url]: https://coveralls.io/r/variadicjs/variadic.js?branch=develop
+[gitter-image]: https://img.shields.io/gitter/room/variadicjs/variadic.js.svg?style=for-the-badge
+[gitter-url]: https://gitter.im/variadicjs/Lobby?source=orgpage
