@@ -59,7 +59,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Implemented Functions
 
-List of possible functions and their implemetation status, compiled by @D1esel-Dev:
+List of possible functions and their implementation status, compiled by @D1esel-Dev:
 
 General Types:
 
