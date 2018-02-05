@@ -57,6 +57,56 @@ npm run lint
 
 Add additional notes about how to deploy this on a live system
 
+## Implemented Functions
+
+List of possible functions and their implemetation status, compiled by @D1esel-Dev:
+
+General Types:
+
+- [ ] Natural numbers
+- [ ] Integers
+- [ ] Rational numbers
+- [ ] Irrational numbers
+- [ ] Real numbers
+- [ ] Imaginary numbers
+- [ ] Complex numbers
+- [ ] Hyper-Complex numbers
+
+Number Representation:
+
+- [ ] Decimal
+- [ ] Binary
+- [ ] Fractions
+- [ ] Scientific notation
+
+Signed Numbers:
+
+- [X] Positive real numbers
+- [X] Negative numbers
+- [ ] Non-negative numbers
+- [ ] Non-positive numbers
+
+Types of integers:
+
+- [X] Even and odd numbers
+- [X] Prime number
+- [ ] Composite number
+
+Computability:
+
+- [X] Sum
+- [ ] Factoral
+- [ ] Minimum
+- [ ] Maximum
+- [ ] Range
+- [X] Average 
+- [X] Mode
+- [X] Median
+- [X] Deviation
+- [X] Ascending
+- [X] Descending
+- [ ] Absolute/magnitude (non-negative value of a number)
+
 ## Built With
 
 * [NodeJS](https://nodejs.org)
