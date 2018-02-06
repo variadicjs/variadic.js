@@ -1,6 +1,6 @@
-describe('IsOdd', () => {
-  const { isOdd } = require('../lib/isOdd');
+const { isOdd } = require('../lib/isOdd');
 
+describe('IsOdd', () => {
   it('should return false when all parameters are even numbers', () => {
     const result = isOdd(2, 4, 200);
     expect(result).toBe(false);

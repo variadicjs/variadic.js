@@ -1,0 +1,26 @@
+sudo: false
+language: node_js
+node_js:
+  - "node"
+  
+cache:
+  directories:
+    - node_modules
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+install:
+  - npm install
+
+script:
+  - npm test
+  - npm run coveralls
+  - npm run lint
+
+branches:
+  only:
+    - master
+    - develop
