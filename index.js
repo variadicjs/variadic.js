@@ -20,5 +20,6 @@ module.exports = Object.assign(
   require('./lib/populationStandardDeviation.js'),
   require('./lib/populationVariance.js'),
   require('./lib/sampleStandardDeviation.js'),
-  require('./lib/sampleVariance.js')
+  require('./lib/sampleVariance.js'),
+  require('./lib/isPositiveInteger.js')
 );
