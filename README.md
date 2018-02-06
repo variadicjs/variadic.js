@@ -3,6 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![Gitter chat][gitter-image]][gitter-url]
 
 A ES6 library of useful variadic functions.
 
@@ -56,6 +57,56 @@ npm run lint
 
 Add additional notes about how to deploy this on a live system
 
+## Implemented Functions
+
+List of possible functions and their implementation status, compiled by [@D1esel-Dev](https://github.com/D1esel-Dev):
+
+General Types:
+
+- [ ] Natural numbers
+- [ ] Integers
+- [ ] Rational numbers
+- [ ] Irrational numbers
+- [ ] Real numbers
+- [ ] Imaginary numbers
+- [ ] Complex numbers
+- [ ] Hyper-Complex numbers
+
+Number Representation:
+
+- [ ] Decimal
+- [ ] Binary
+- [ ] Fractions
+- [ ] Scientific notation
+
+Signed Numbers:
+
+- [X] Positive real numbers
+- [X] Negative numbers
+- [ ] Non-negative numbers
+- [ ] Non-positive numbers
+
+Types of integers:
+
+- [X] Even and odd numbers
+- [X] Prime number
+- [ ] Composite number
+
+Computability:
+
+- [X] Sum
+- [ ] Factoral
+- [ ] Minimum
+- [ ] Maximum
+- [ ] Range
+- [X] Average 
+- [X] Mode
+- [X] Median
+- [X] Deviation
+- [X] Ascending
+- [X] Descending
+- [ ] Absolute/magnitude (non-negative value of a number)
+
 ## Built With
 
 * [NodeJS](https://nodejs.org)
@@ -90,3 +141,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [travis-url]: https://travis-ci.org/variadicjs/variadic.js
 [coveralls-image]: https://img.shields.io/coveralls/variadicjs/variadic.js.svg?style=for-the-badge
 [coveralls-url]: https://coveralls.io/r/variadicjs/variadic.js?branch=develop
+[gitter-image]: https://img.shields.io/gitter/room/variadicjs/variadic.js.svg?style=for-the-badge
+[gitter-url]: https://gitter.im/variadicjs/Lobby?source=orgpage
