@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc jasmine",
-    "lint": "eslint index.js lib/** spec/**",
-    "fix": "eslint index.js lib/** spec/** --fix",
+    "lint": "eslint index.js lib/**/*.js spec/**/*.js",
+    "fix": "eslint index.js lib/**/*.js spec/**/*.js --fix",
     "coveralls": "nyc jasmine && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
