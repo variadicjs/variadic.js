@@ -22,5 +22,5 @@ module.exports = Object.assign(
   require('./lib/sampleStandardDeviation.js'),
   require('./lib/sampleVariance.js'),
   require('./lib/isPositiveInteger.js'),
-  require('./lib/isDecimal.js')
+  require('./lib/isDecimal.js'),
 );
