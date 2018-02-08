@@ -63,6 +63,7 @@ typings/
 # coverall token
 .coveralls.yml
 
+dist
 .DS_Store
 untitled.sublime-project
 untitled.sublime-workspace
