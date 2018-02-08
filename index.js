@@ -15,6 +15,7 @@ module.exports = Object.assign(
   require('./lib/isAscending.js'),
   require('./lib/isDescending.js'),
   require('./lib/isPrime.js'),
+  require('./lib/maximum.js'),
   require('./lib/median.js'),
   require('./lib/minimum.js'),
   require('./lib/mode.js'),
