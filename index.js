@@ -15,11 +15,14 @@ module.exports = Object.assign(
   require('./lib/isAscending.js'),
   require('./lib/isDescending.js'),
   require('./lib/isPrime.js'),
+  require('./lib/maximum.js'),
   require('./lib/median.js'),
+  require('./lib/minimum.js'),
   require('./lib/mode.js'),
   require('./lib/populationStandardDeviation.js'),
   require('./lib/populationVariance.js'),
   require('./lib/sampleStandardDeviation.js'),
   require('./lib/sampleVariance.js'),
-  require('./lib/isPositiveInteger.js')
+  require('./lib/isPositiveInteger.js'),
+  require('./lib/isDecimal.js'),
 );

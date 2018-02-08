@@ -1,13 +1,14 @@
 {
   "name": "variadic.js",
-  "version": "0.0.17",
+  "version": "0.0.20",
   "description": "A ES6 library of useful variadic functions.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "nyc jasmine",
-    "lint": "eslint index.js lib/** spec/**",
-    "fix": "eslint index.js lib/** spec/** --fix",
-    "coveralls": "nyc jasmine && nyc report --reporter=text-lcov | coveralls"
+    "lint": "eslint index.js lib/**/*.js spec/**/*.js",
+    "fix": "eslint index.js lib/**/*.js spec/**/*.js --fix",
+    "coveralls": "nyc jasmine && nyc report --reporter=text-lcov | coveralls",
+    "build": "BABEL_ENV=production babel index.js -d dist && BABEL_ENV=production babel lib/ -d dist/lib"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,15 @@
   },
   "homepage": "https://github.com/variadicjs/variadic.js",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
     "coveralls": "^3.0.0",
+    "cross-env": "^5.1.3",
     "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-airbnb-standard": "^1.6.6",
+    "eslint-plugin-import": "^2.8.0",
     "jasmine": "^2.9.0",
     "nyc": "^11.4.1"
   },

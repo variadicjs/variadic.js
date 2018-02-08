@@ -56,49 +56,49 @@ describe('IsEqual', () => {
 
   it('should return false when objects paramters do not have the same key length', () => {
     const result = isEqual({
-      value: 8
+      value: 8,
     }, {}, {
       value: 8,
-      anothervalue: 9
+      anothervalue: 9,
     }, {
-      value: 8
+      value: 8,
     });
     expect(result).toBe(false);
   });
 
   it('should return false when objects paramters do not have the same keys', () => {
     const result = isEqual({
-      value1: 8
+      value1: 8,
     }, {
-      value2: 8
+      value2: 8,
     }, {
-      value3: 8
+      value3: 8,
     });
     expect(result).toBe(false);
   });
 
   it('should return false when objects paramters do not have the same values', () => {
     const result = isEqual({
-      value1: 8
+      value1: 8,
     }, {
-      value1: 8
+      value1: 8,
     }, {
-      value1: 8
+      value1: 8,
     }, {
-      value1: 8
+      value1: 8,
     }, {
-      value1: 9
+      value1: 9,
     });
     expect(result).toBe(false);
   });
 
   it('should return true when objects paramters are all the same', () => {
     const result = isEqual({
-      value: 8
+      value: 8,
     }, {
-      value: 8
+      value: 8,
     }, {
-      value: 8
+      value: 8,
     });
     expect(result).toBe(true);
   });
