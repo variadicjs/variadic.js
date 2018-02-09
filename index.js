@@ -25,4 +25,5 @@ module.exports = Object.assign(
   require('./lib/sampleVariance.js'),
   require('./lib/isPositiveInteger.js'),
   require('./lib/isDecimal.js'),
+  require('./lib/isNegativeInteger.js'),
 );
