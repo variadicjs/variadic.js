@@ -125,6 +125,8 @@ Grow with Google Scholars c/o 2018
 
 See also the list of [contributors](https://github.com/variadicjs/variadic.js/graphs/contributors) who participated in this project.
 
+Logo by [@PepperAddict](https://github.com/PepperAddict)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
