@@ -74,7 +74,7 @@ General Types:
 
 Number Representation:
 
-- [ ] Decimal
+- [X] Decimal
 - [ ] Binary
 - [ ] Fractions
 - [ ] Scientific notation
@@ -95,9 +95,9 @@ Types of integers:
 Computability:
 
 - [X] Sum
-- [ ] Factoral
-- [ ] Minimum
-- [ ] Maximum
+- [X] Factoral
+- [X] Minimum
+- [X] Maximum
 - [ ] Range
 - [X] Average 
 - [X] Mode
