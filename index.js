@@ -1,6 +1,8 @@
 'use strict';
 
-// REGISTER ALL MODULES
+/**
+ * @module variadic
+ */
 module.exports = Object.assign(
   {},
   require('./lib/isEmpty.js'),
