@@ -8,7 +8,8 @@
     "lint": "eslint index.js lib/**/*.js spec/**/*.js",
     "fix": "eslint index.js lib/**/*.js spec/**/*.js --fix",
     "coveralls": "nyc jasmine && nyc report --reporter=text-lcov | coveralls",
-    "build": "BABEL_ENV=production babel index.js -d dist && BABEL_ENV=production babel lib/ -d dist/lib"
+    "build": "BABEL_ENV=production babel index.js -d dist && BABEL_ENV=production babel lib/ -d dist/lib",
+    "docs": "documentation readme --readme-file DOCUMENTATION.md -s Variadic.js index.js lib/**"
   },
   "repository": {
     "type": "git",

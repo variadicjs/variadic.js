@@ -40,6 +40,10 @@ variadic.isEmpty([0, 2, 3], {}, 0); // false
 variadic.isEven(2, 4, 6); // error
 ```
 
+## Documenation
+
+See [DOCUMENTATION.md](DOCUMENTATION.md)
+
 ## Running the tests
 
 ```
