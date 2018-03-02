@@ -28,4 +28,5 @@ module.exports = Object.assign(
   require('./lib/isPositiveInteger.js'),
   require('./lib/isDecimal.js'),
   require('./lib/isNegativeInteger.js'),
+  require('./lib/absoluteValue.js'),
 );
