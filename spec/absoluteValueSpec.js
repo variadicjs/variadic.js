@@ -2,7 +2,7 @@ const { absoluteValue } = require('../lib/absoluteValue');
 
 describe('absoluteValue', () => {
   it('should return the absolute value of all parameters, given that all parameters evaluate to numbers', () => {
-    let result = absoluteValue(1.6,-2.3325,-9007199254740990,596960,3938475,+"-395757");
+    const result = absoluteValue(1.6,-2.3325, -9007199254740990, 596960, 3938475, +'-395757');
     expect(result).toEqual([1.6, 2.3325, 9007199254740990, 596960, 3938475, 395757]);
   });
 
