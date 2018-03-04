@@ -51,7 +51,7 @@ npm test
 ```
 
 ### And coding style tests
-We use eslint that extends the airbnb-standard. You can read more here: [airbnb/js](https://github.com/airbnb/javascript) 
+We use eslint that extends the airbnb-standard. You can read more here: [airbnb/js](https://github.com/airbnb/javascript)
 
 ```
 npm run lint
@@ -94,7 +94,7 @@ Types of integers:
 
 - [X] Even and odd numbers
 - [X] Prime number
-- [ ] Composite number
+- [X] Composite number
 
 Computability:
 
@@ -103,13 +103,13 @@ Computability:
 - [X] Minimum
 - [X] Maximum
 - [ ] Range
-- [X] Average 
+- [X] Average
 - [X] Mode
 - [X] Median
 - [X] Deviation
 - [X] Ascending
 - [X] Descending
-- [ ] Absolute/magnitude (non-negative value of a number)
+- [X] Absolute/magnitude (non-negative value of a number)
 
 ## Built With
 
@@ -121,7 +121,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/variadicjs/variadic.js/releases). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/variadicjs/variadic.js/releases).
 
 ## Authors
 
