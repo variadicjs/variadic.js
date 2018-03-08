@@ -22,6 +22,7 @@ module.exports = Object.assign(
   require('./lib/median.js'),
   require('./lib/minimum.js'),
   require('./lib/mode.js'),
+  require('./lib/range.js'),
   require('./lib/populationStandardDeviation.js'),
   require('./lib/populationVariance.js'),
   require('./lib/sampleStandardDeviation.js'),

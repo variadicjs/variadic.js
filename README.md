@@ -102,7 +102,7 @@ Computability:
 - [X] Factoral
 - [X] Minimum
 - [X] Maximum
-- [ ] Range
+- [X] Range
 - [X] Average
 - [X] Mode
 - [X] Median
