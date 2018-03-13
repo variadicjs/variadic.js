@@ -68,7 +68,7 @@ List of possible functions and their implementation status, compiled by [@D1esel
 General Types:
 
 - [ ] Natural numbers
-- [ ] Integers
+- [x] Integers
 - [ ] Rational numbers
 - [ ] Irrational numbers
 - [ ] Real numbers

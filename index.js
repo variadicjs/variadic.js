@@ -16,6 +16,7 @@ module.exports = Object.assign(
   require('./lib/floatPrecise.js'),
   require('./lib/isAscending.js'),
   require('./lib/isDescending.js'),
+  require('./lib/isIntegers.js'),
   require('./lib/isPrime.js'),
   require('./lib/isComposit.js'),
   require('./lib/maximum.js'),
