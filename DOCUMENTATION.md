@@ -5,14 +5,17 @@
 ### Table of Contents
 
 -   [variadic](#variadic)
+    -   [absoluteValue](#absolutevalue)
     -   [average](#average)
     -   [factorial](#factorial)
     -   [isAscending](#isascending)
+    -   [isComposit](#iscomposit)
     -   [isDecimal](#isdecimal)
     -   [isDescending](#isdescending)
     -   [isEmpty](#isempty)
     -   [isEqual](#isequal)
     -   [isEven](#iseven)
+    -   [isIntegers](#isintegers)
     -   [isNegativeInteger](#isnegativeinteger)
     -   [isNegativeNumber](#isnegativenumber)
     -   [isOdd](#isodd)
@@ -25,11 +28,24 @@
     -   [mode](#mode)
     -   [populationStandardDeviation](#populationstandarddeviation)
     -   [populationVariance](#populationvariance)
+    -   [range](#range)
     -   [sampleStandardDeviation](#samplestandarddeviation)
     -   [sampleVariance](#samplevariance)
     -   [sum](#sum)
 
 ## variadic
+
+### absoluteValue
+
+This function converts all numbers to a positive number
+
+**Parameters**
+
+-   `params` **...any** One or more parameters.
+
+**Meta**
+
+-   **author**: tdnelson2
 
 ### average
 
@@ -66,6 +82,18 @@ This function evaluates whether the parameters are in ascending order
 **Meta**
 
 -   **author**: scottwestover
+
+### isComposit
+
+This function evaluates whether all numerical parameters are composit
+
+**Parameters**
+
+-   `params` **...any** One or more parameters.
+
+**Meta**
+
+-   **author**: tdnelson2
 
 ### isDecimal
 
@@ -126,6 +154,18 @@ This function evaluates whether all parameters are even
 **Meta**
 
 -   **author**: scottwestover
+
+### isIntegers
+
+This function evaluates whether all parameters are integers
+
+**Parameters**
+
+-   `params` **...any** One or more parameters.
+
+**Meta**
+
+-   **author**: someyoungideas
 
 ### isNegativeInteger
 
@@ -270,6 +310,18 @@ This function calculates the variance
 **Meta**
 
 -   **author**: devNoiseConsulting
+
+### range
+
+This function returns the difference between the largest and smallest values
+
+**Parameters**
+
+-   `params` **...any** One or more parameters.
+
+**Meta**
+
+-   **author**: tdnelson2
 
 ### sampleStandardDeviation
 
