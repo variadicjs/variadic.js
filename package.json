@@ -38,5 +38,8 @@
     "jasmine": "^2.9.0",
     "nyc": "^11.4.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "volta": {
+    "node": "16.20.2"
+  }
 }

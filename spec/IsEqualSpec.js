@@ -1,60 +1,60 @@
 const { isEqual } = require('../lib/isEqual');
 
 describe('IsEqual', () => {
-  it('should throw an error when no paramters are passed', () => {
+  it('should throw an error when no parameters are passed', () => {
     try {
       isEqual();
     } catch (e) {
-      expect(e.message).toBe('Must provide one or more paramters');
+      expect(e.message).toBe('Must provide one or more parameters');
     }
   });
 
-  it('should return true when all paramters are the same', () => {
+  it('should return true when all parameters are the same', () => {
     const result = isEqual(1, 1, 1);
     expect(result).toBe(true);
   });
 
-  it('should return false when any paramters are not the same', () => {
+  it('should return false when any parameters are not the same', () => {
     const result = isEqual(1, 1, '1');
     expect(result).toBe(false);
   });
 
-  it('should return true when all boolean paramters are the same', () => {
+  it('should return true when all boolean parameters are the same', () => {
     const result = isEqual(false, false, false);
     expect(result).toBe(true);
   });
 
-  it('should return false when all boolean paramters are not the same', () => {
+  it('should return false when all boolean parameters are not the same', () => {
     const result = isEqual(false, false, 0);
     expect(result).toBe(false);
   });
 
-  it('should return true when all string paramters are the same', () => {
+  it('should return true when all string parameters are the same', () => {
     const result = isEqual('test', 'test', 'test');
     expect(result).toBe(true);
   });
 
-  it('should return false when all string paramters are not the same', () => {
+  it('should return false when all string parameters are not the same', () => {
     const result = isEqual('test', 'test', 'test2');
     expect(result).toBe(false);
   });
 
-  it('should return false when array paramters are not all the same length', () => {
+  it('should return false when array parameters are not all the same length', () => {
     const result = isEqual([], [2], [3]);
     expect(result).toBe(false);
   });
 
-  it('should return true when all array paramters are the same', () => {
+  it('should return true when all array parameters are the same', () => {
     const result = isEqual([2], [2], [2]);
     expect(result).toBe(true);
   });
 
-  it('should return false when all array paramters are not the same', () => {
+  it('should return false when all array parameters are not the same', () => {
     const result = isEqual([2], [4], [4]);
     expect(result).toBe(false);
   });
 
-  it('should return false when objects paramters do not have the same key length', () => {
+  it('should return false when objects parameters do not have the same key length', () => {
     const result = isEqual({
       value: 8,
     }, {}, {
@@ -66,7 +66,7 @@ describe('IsEqual', () => {
     expect(result).toBe(false);
   });
 
-  it('should return false when objects paramters do not have the same keys', () => {
+  it('should return false when objects parameters do not have the same keys', () => {
     const result = isEqual({
       value1: 8,
     }, {
@@ -77,7 +77,7 @@ describe('IsEqual', () => {
     expect(result).toBe(false);
   });
 
-  it('should return false when objects paramters do not have the same values', () => {
+  it('should return false when objects parameters do not have the same values', () => {
     const result = isEqual({
       value1: 8,
     }, {
@@ -92,7 +92,7 @@ describe('IsEqual', () => {
     expect(result).toBe(false);
   });
 
-  it('should return true when objects paramters are all the same', () => {
+  it('should return true when objects parameters are all the same', () => {
     const result = isEqual({
       value: 8,
     }, {

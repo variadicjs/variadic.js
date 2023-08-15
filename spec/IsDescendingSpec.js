@@ -12,7 +12,7 @@ describe('IsDescending', () => {
     expect(() => isDescending('foo', 'bar')).toThrow();
   });
 
-  it('should throw an error when there are less than two paramters', () => {
+  it('should throw an error when there are less than two parameterss', () => {
     expect(() => isDescending(3)).toThrow();
   });
 
