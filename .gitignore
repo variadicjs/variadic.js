@@ -67,3 +67,5 @@ dist
 .DS_Store
 untitled.sublime-project
 untitled.sublime-workspace
+
+.vscode
