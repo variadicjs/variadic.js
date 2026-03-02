@@ -49,7 +49,7 @@ This function converts all numbers to a positive number
 
 ### average
 
-This function caculates the average of the numerical parameters
+This function calculates the average of the numerical parameters
 
 **Parameters**
 
@@ -61,7 +61,7 @@ This function caculates the average of the numerical parameters
 
 ### factorial
 
-This function caculates the factorial of each numerical parameter
+This function calculates the factorial of each numerical parameter
 
 **Parameters**
 
