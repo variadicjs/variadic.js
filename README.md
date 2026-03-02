@@ -63,7 +63,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Implemented Functions
 
-List of possible functions and their implementation status, compiled by [@D1esel-Dev](https://github.com/D1esel-Dev):
+List of possible functions and their implementation status, compiled by [@snuxy-pk](https://github.com/snuxy-pk):
 
 General Types:
 
