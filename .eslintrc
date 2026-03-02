@@ -2,6 +2,8 @@
   "extends": ["airbnb-base"],
   "rules": {
     "strict": 0,
+    "global-require": 0,
+    "import/extensions": 0,
     "no-restricted-syntax": [
       "error",
       "ForInStatement",
