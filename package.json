@@ -7,7 +7,7 @@
     "test": "nyc jasmine",
     "lint": "eslint index.js lib/**/*.js spec/**/*.js",
     "fix": "eslint index.js lib/**/*.js spec/**/*.js --fix",
-    "build": "BABEL_ENV=production babel index.js -d dist && BABEL_ENV=production babel lib/ -d dist/lib",
+    "build": "babel --env-name production index.js -d dist && babel --env-name production lib/ -d dist/lib",
     "docs": "documentation readme --readme-file DOCUMENTATION.md -s Variadic.js index.js lib/**"
   },
   "repository": {
