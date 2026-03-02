@@ -35,6 +35,6 @@ describe('IsComposit', () => {
   });
 
   it('should throw an error when at least one parameter evaluates to a number larger than Number.MAX_SAFE_INTEGER', () => {
-    expect(() => isComposit(9949370777987917)).toThrow();
+    expect(() => isComposit(Number.MAX_SAFE_INTEGER + 1)).toThrow();
   });
 });

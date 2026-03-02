@@ -35,6 +35,6 @@ describe('IsPrime', () => {
   });
 
   it('should throw an error when at least one parameter evaluates to a number larger than Number.MAX_SAFE_INTEGER', () => {
-    expect(() => isPrime(9949370777987917)).toThrow();
+    expect(() => isPrime(Number.MAX_SAFE_INTEGER + 1)).toThrow();
   });
 });

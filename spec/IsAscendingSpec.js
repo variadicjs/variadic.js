@@ -2,7 +2,7 @@
 
 const { isAscending } = require('../lib/isAscending');
 
-describe('IsDescending', () => {
+describe('IsAscending', () => {
   it('should return true when the parameters are in ascending order', () => {
     const result = isAscending(1, 2, 3);
     expect(result).toBe(true);
